@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android project/Unicornexammodul6/app/src/main/res/drawable/edt_background.xml" value="0.171" />
         <entry key="..\:/Android project/Unicornexammodul6/app/src/main/res/drawable/ic_add_circle_outline_black_24dp.xml" value="0.155" />
+        <entry key="..\:/Android project/Unicornexammodul6/app/src/main/res/drawable/ic_close_black_24dp.xml" value="0.171" />
         <entry key="..\:/Android project/Unicornexammodul6/app/src/main/res/layout/activity_main.xml" value="0.18854166666666666" />
+        <entry key="..\:/Android project/Unicornexammodul6/app/src/main/res/layout/activity_second.xml" value="0.25" />
         <entry key="..\:/Android project/Unicornexammodul6/app/src/main/res/layout/item_card_layout.xml" value="0.25" />
       </map>
     </option>
