@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.mirkamol.unicornexammodul6.R
@@ -16,6 +17,7 @@ class CardAdapter (val context: Context, val list:ArrayList<CardDataItem>):
         val cardName = view.findViewById<TextView>(R.id.card_name)
         val cardNumber = view.findViewById<TextView>(R.id.card_number)
         val tv_data = view.findViewById<TextView>(R.id.tv_data)
+       // val ll_background = view.findViewById<LinearLayout>(R.id.ll_background)
 
     }
 
@@ -30,6 +32,7 @@ class CardAdapter (val context: Context, val list:ArrayList<CardDataItem>):
             holder.cardName.text = card.card_name
             holder.cardNumber.text = card.card_number
             holder.tv_data.text = card.data
+
         }
     }
 
